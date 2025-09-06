@@ -1,0 +1,1589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home - Data Analyst Portfolio</title>
+    <!-- Bootstrap CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- GSAP and ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body
+    class="text-light d-flex flex-column min-vh-100"
+    style="background-color: #121212"
+  >
+    <nav class="navbar navbar-expand-lg navbar-dark creative-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="#home" style="font-style: italic; color: #90caf9; text-shadow: 0 0 10px #90caf9; font-size: 1.1rem; font-weight: bold;">Enjoy Your Visit</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center" href="#home"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center" href="#about"><i class="fas fa-user"></i> About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center" href="#usp"><i class="fas fa-lightbulb"></i> USP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center" href="#projects"><i class="fas fa-project-diagram"></i> Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center" href="#skills"><i class="fas fa-star"></i> Skills & Certificates</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center" href="#experience"><i class="fas fa-briefcase"></i> Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center" href="#education"><i class="fas fa-graduation-cap"></i> Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center" href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+            </li>
+          </ul>
+        </div>
+    <button id="mobile-menu-btn" class="navbar-toggler" type="button" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      </div>
+</nav>
+
+<div id="mobile-menu" class="mobile-menu">
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#usp">USP</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills & Certificates</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</div>
+
+
+    <main
+      id="home"
+      class="container min-vh-100 d-flex flex-column flex-md-row align-items-center gap-4 py-4"
+      style="background-color: #121212"
+    >
+      <div class="d-flex flex-column align-items-center gap-4">
+        <div id="text-container" class="fs-5 lh-base"></div>
+        <div class="mt-4 d-flex gap-3 flex-wrap justify-content-center">
+          <a
+            href="Omar_Hesham_CV.pdf"
+            target="_blank"
+            class="btn btn-primary"
+            id="cv-btn"
+          >
+            View My CV
+          </a>
+          <button id="sample-work-btn" class="btn btn-primary">
+            Show My Projects
+          </button>
+          <button id="connect-btn" class="btn btn-primary">
+            Let's Connect
+          </button>
+        </div>
+      </div>
+      <div class="flex-shrink-0">
+        <img
+          src="content.png"
+          alt="Profile Picture"
+          class="rounded-circle img-fluid"
+          style="max-width: 250px; width: 100%; height: auto"
+        />
+      </div>
+    </main>
+
+    <!-- USP Section -->
+    <section
+      id="usp"
+      class="py-5"
+      style="margin-top: 1rem; background-color: #121212"
+    >
+      <div class="container">
+        <div class="usp-section rise-animate">
+          <h2 class="section-title text-center">
+            Why I'm the Right Choice for Your Data
+          </h2>
+          <div class="usp-card card mx-auto" style="border: none">
+            <div class="card-body" style="background-color: #1a1a1a">
+              <ul class="list-unstyled usp-list">
+                <li
+                  class="usp-point d-flex align-items-center mb-3 p-2 rounded"
+                  style="
+                    background: #2a2a2a;
+                    border-left: 4px solid #4caf50;
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                  "
+                >
+                  <i
+                    class="fas fa-magic me-3 fa-lg"
+                    style="color: #4caf50; min-width: 24px"
+                  ></i>
+                  <span
+                    style="
+                      line-height: 1.6;
+                      color: #ffffff;
+                      text-align: justify;
+                    "
+                  >
+                    Numbers are messy — I transform them into crystal-clear
+                    insights using Excel, SQL, Python, and Power BI. I
+                    specialize in helping startups and e-commerce make decisions
+                    up to 20% faster through tailored dashboards and analysis.
+                  </span>
+                </li>
+                <li
+                  class="usp-point d-flex align-items-center mb-3 p-2 rounded"
+                  style="
+                    background: #2a2a2a;
+                    border-left: 4px solid #4caf50;
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                  "
+                >
+                  <i
+                    class="fas fa-rocket me-3 fa-lg"
+                    style="color: #4caf50; min-width: 24px"
+                  ></i>
+                  <span
+                    style="
+                      line-height: 1.6;
+                      color: #ffffff;
+                      text-align: justify;
+                    "
+                  >
+                    Deadlines? I treat them like unbreakable promises—met 100%
+                    on time.
+                  </span>
+                </li>
+                <li
+                  class="usp-point d-flex align-items-center mb-3 p-2 rounded"
+                  style="
+                    background: #2a2a2a;
+                    border-left: 4px solid #4caf50;
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                  "
+                >
+                  <i
+                    class="fas fa-balance-scale me-3 fa-lg"
+                    style="color: #4caf50; min-width: 24px"
+                  ></i>
+                  <span
+                    style="
+                      line-height: 1.6;
+                      color: #ffffff;
+                      text-align: justify;
+                    "
+                  >
+                    Every solution balances speed with precision, ensuring not
+                    just data, but actionable business value.
+                  </span>
+                </li>
+                <li
+                  class="usp-point d-flex align-items-center p-2 rounded"
+                  style="
+                    background: #2a2a2a;
+                    border-left: 4px solid #4caf50;
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                  "
+                >
+                  <i
+                    class="fas fa-coins me-3 fa-lg"
+                    style="color: #4caf50; min-width: 24px"
+                  ></i>
+                  <span
+                    style="
+                      line-height: 1.6;
+                      color: #ffffff;
+                      text-align: justify;
+                    "
+                  >
+                    All at a fair price that delivers real ROI.
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section
+      id="about"
+      class="py-5"
+      style="margin-top: 1rem; background-color: #121212"
+    >
+      <div class="container">
+        <div class="text-section rise-animate">
+          <h2 class="section-title text-center">About Me</h2>
+          <div class="usp-card card mx-auto" style="border: none">
+            <div class="card-body" style="background-color: #1a1a1a">
+              <div id="about-text" class="fs-5 lh-lg">
+                <p
+                  class="d-flex align-items-center mb-3 p-2 rounded"
+                  style="
+                    background: #2a2a2a;
+                    border-left: 4px solid #4caf50;
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                  "
+                >
+                  <i
+                    class="fas fa-user me-3 fa-lg"
+                    style="color: #4caf50; min-width: 24px"
+                  ></i>
+                  <span
+                    style="
+                      line-height: 1.6;
+                      color: #ffffff;
+                      text-align: justify;
+                    "
+                    >I'm a motivated Data Analyst with hands-on experience in
+                    Excel, SQL, Python, and Power BI.</span
+                  >
+                </p>
+                <p
+                  class="d-flex align-items-center mb-3 p-2 rounded"
+                  style="
+                    background: #2a2a2a;
+                    border-left: 4px solid #4caf50;
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                  "
+                >
+                  <i
+                    class="fas fa-search me-3 fa-lg"
+                    style="color: #4caf50; min-width: 24px"
+                  ></i>
+                  <span
+                    style="
+                      line-height: 1.6;
+                      color: #ffffff;
+                      text-align: justify;
+                    "
+                    >My expertise lies in collecting, cleaning, transforming,
+                    and analyzing data to uncover actionable insights that
+                    support smarter, data-driven decisions.</span
+                  >
+                </p>
+                <p
+                  class="d-flex align-items-center mb-3 p-2 rounded"
+                  style="
+                    background: #2a2a2a;
+                    border-left: 4px solid #4caf50;
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                  "
+                >
+                  <i
+                    class="fas fa-graduation-cap me-3 fa-lg"
+                    style="color: #4caf50; min-width: 24px"
+                  ></i>
+                  <span
+                    style="
+                      line-height: 1.6;
+                      color: #ffffff;
+                      text-align: justify;
+                    "
+                    >Through my internship with the Digital Egypt Pioneers
+                    Initiative, I gained practical experience in analyzing large
+                    datasets, building interactive dashboards, and applying
+                    statistical techniques to solve real-world problems.</span
+                  >
+                </p>
+                <p
+                  class="d-flex align-items-center mb-3 p-2 rounded"
+                  style="
+                    background: #2a2a2a;
+                    border-left: 4px solid #4caf50;
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                  "
+                >
+                  <i
+                    class="fas fa-brain me-3 fa-lg"
+                    style="color: #4caf50; min-width: 24px"
+                  ></i>
+                  <span
+                    style="
+                      line-height: 1.6;
+                      color: #ffffff;
+                      text-align: justify;
+                    "
+                    >I bring together strong technical skills and soft skills
+                    like analytical thinking, problem-solving, attention to
+                    detail, and time management — ensuring that every project is
+                    delivered with both precision and reliability.</span
+                  >
+                </p>
+                <p
+                  class="d-flex align-items-center p-2 rounded"
+                  style="
+                    background: #2a2a2a;
+                    border-left: 4px solid #4caf50;
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                  "
+                >
+                  <i
+                    class="fas fa-target me-3 fa-lg"
+                    style="color: #4caf50; min-width: 24px"
+                  ></i>
+                  <span
+                    style="
+                      line-height: 1.6;
+                      color: #ffffff;
+                      text-align: justify;
+                    "
+                    >My goal is simple: to turn raw data into meaningful,
+                    impactful solutions that help businesses and individuals
+                    make better decisions.</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5" style="margin-top: 1rem">
+      <div class="container">
+        <h2 class="section-title text-center">My Projects</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="project-card rise-animate">
+              <img
+                src="project1.png"
+                alt="Sales Insights Dashboard"
+                class="img-fluid project-img"
+              />
+              <h3>Sales Insights Dashboard (Excel)</h3>
+              <p>
+                An Excel dashboard providing key sales insights, including top
+                10 countries, quarterly trends, product categories, and customer
+                languages. With timeline and country slicers, it helps track
+                performance across years and regions.
+              </p>
+              <button
+                class="btn btn-primary view-more-btn"
+                data-bs-toggle="modal"
+                data-bs-target="#project1Modal"
+              >
+                View More
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="project-card rise-animate">
+              <img
+                src="project2.png"
+                alt="Advanced Sales Dashboard"
+                class="img-fluid project-img"
+              />
+              <h3>Advanced Sales Dashboard (Excel)</h3>
+              <p>
+                An advanced Excel dashboard built with Power Pivot and Power
+                Query to model large datasets across multiple files. Delivered
+                insights on top customers, salespersons, products, demand by
+                region, sales trends, and order success rates — with fully
+                interactive filters.
+              </p>
+              <button
+                class="btn btn-primary view-more-btn"
+                data-bs-toggle="modal"
+                data-bs-target="#project2Modal"
+              >
+                View More
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="project-card rise-animate">
+              <img
+                src="project3.png"
+                alt="Café Sales Dashboard"
+                class="img-fluid project-img"
+              />
+              <h3>Café Sales Dashboard (Excel)</h3>
+              <p>
+                An interactive Excel dashboard for café sales. Cleaned raw,
+                inconsistent data and built a tool to monitor revenue, product
+                performance, payment methods, order types, and sales trends —
+                enabling data-driven operational decisions.
+              </p>
+              <button
+                class="btn btn-primary view-more-btn"
+                data-bs-toggle="modal"
+                data-bs-target="#project3Modal"
+              >
+                View More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills & Certificates Section -->
+    <section id="skills" class="py-5" style="margin-top: 1rem">
+      <div class="container">
+        <h2 class="section-title text-center">Skills & Certificates</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-5 col-md-6 col-sm-12 mb-4">
+            <div class="skills-category rise-animate">
+              <h3 class="text-center mb-4" style="color: #00bcd4">
+                Technical Skills
+              </h3>
+              <div class="skills-grid row">
+                <div class="skill-card col-6 col-md-4 mb-3">
+                  <i class="fab fa-python fa-2x"></i>
+                  <span>Python</span>
+                </div>
+                <div class="skill-card col-6 col-md-4 mb-3">
+                  <i class="fas fa-file-excel fa-2x"></i>
+                  <span>Excel</span>
+                </div>
+                <div class="skill-card col-6 col-md-4 mb-3">
+                  <i class="fas fa-database fa-2x"></i>
+                  <span>SQL</span>
+                </div>
+                <div class="skill-card col-6 col-md-4 mb-3">
+                  <i class="fas fa-chart-bar fa-2x"></i>
+                  <span>Power BI</span>
+                </div>
+                <div class="skill-card col-6 col-md-4 mb-3">
+                  <i class="fas fa-table fa-2x"></i>
+                  <span>Tableau</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-6 col-sm-12 mb-4">
+            <div class="skills-category rise-animate">
+              <h3 class="text-center mb-4" style="color: #00bcd4">
+                Soft Skills
+              </h3>
+              <div class="skills-grid row">
+                <div class="skill-card col-6 col-md-4 mb-3">
+                  <i class="fas fa-users fa-2x"></i>
+                  <span>Teamwork</span>
+                </div>
+                <div class="skill-card col-6 col-md-4 mb-3">
+                  <i class="fas fa-lightbulb fa-2x"></i>
+                  <span>Problem Solving</span>
+                </div>
+                <div class="skill-card col-6 col-md-4 mb-3">
+                  <i class="fas fa-clock fa-2x"></i>
+                  <span>Time Management</span>
+                </div>
+                <div class="skill-card col-6 col-md-4 mb-3">
+                  <i class="fas fa-comments fa-2x"></i>
+                  <span>Communication</span>
+                </div>
+                <div class="skill-card col-6 col-md-4 mb-3">
+                  <i class="fas fa-book fa-2x"></i>
+                  <span>Self-Learning</span>
+                </div>
+                <div class="skill-card col-6 col-md-4 mb-3">
+                  <i class="fas fa-brain fa-2x"></i>
+                  <span>Analytical Thinking</span>
+                </div>
+                <div class="skill-card col-6 col-md-4 mb-3">
+                  <i class="fas fa-brain fa-2x"></i>
+                  <span>Critical Thinking</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="certifications-section mt-5">
+          <h2 class="section-title text-center mb-4">Certifications</h2>
+          <div
+            id="certificationsCarousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#certificationsCarousel"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#certificationsCarousel"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#certificationsCarousel"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="certification-card rise-animate">
+                  <div class="cert-image-container">
+                    <img
+                      src="Intro.png"
+                      alt="Intro to Excel Certificate"
+                      class="cert-image"
+                    />
+                  </div>
+                  <div class="cert-text text-center mt-2">
+                    <p><strong>Intro to Excel</strong></p>
+                    <p>DataCamp</p>
+                    <p>29/6/2025</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="certification-card rise-animate">
+                  <div class="cert-image-container">
+                    <img
+                      src="Preperation.png"
+                      alt="Data Preparation in Excel Certificate"
+                      class="cert-image"
+                    />
+                  </div>
+                  <div class="cert-text text-center mt-2">
+                    <p><strong>Data Preparation in Excel</strong></p>
+                    <p>DataCamp</p>
+                    <p>1/8/2025</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="certification-card rise-animate">
+                  <div class="cert-image-container">
+                    <img
+                      src="AICertficate.png"
+                      alt="Intro To Ai Agent Certificate"
+                      class="cert-image"
+                    />
+                  </div>
+                  <div class="cert-text text-center mt-2">
+                    <p><strong>Intro To Ai Agent</strong></p>
+                    <p>DataCamp</p>
+                    <p>14/8/2025</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#certificationsCarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#certificationsCarousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-5" style="margin-top: 1rem">
+      <div class="container">
+        <h2 class="section-title text-center">Experience</h2>
+        <div class="experience-card rise-animate mx-auto">
+              <div class="card-header">
+                <div class="card-icon">
+                  <i class="fas fa-briefcase"></i>
+                </div>
+                <div class="card-title-section">
+                  <h3>Digital Egypt Pioneers Initiative (DEPI)</h3>
+                  <p class="card-subtitle">Data Analysis Track</p>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="achievement-grid">
+                  <div class="achievement-item">
+                    <i class="fas fa-chart-line"></i>
+                    <span
+                      >Analyzed large datasets using Excel and Python to extract
+                      insights and detect patterns</span
+                    >
+                  </div>
+                  <div class="achievement-item">
+                    <i class="fas fa-database"></i>
+                    <span
+                      >Cleaned, joined, and transformed raw data using SQL and
+                      Power Query</span
+                    >
+                  </div>
+                  <div class="achievement-item">
+                    <i class="fas fa-chart-bar"></i>
+                    <span
+                      >Designed interactive dashboards in Power BI to visualize
+                      KPIs</span
+                    >
+                  </div>
+                  <div class="achievement-item">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span><strong>Duration:</strong> June 2025 – December 2025</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-5" style="margin-top: 1rem">
+      <div class="container">
+        <h2 class="section-title text-center">Education</h2>
+        <div class="education-card rise-animate mx-auto">
+          <div class="card-header">
+            <div class="card-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="card-title-section">
+              <h3>Bachelor of Science - Ain Shams University</h3>
+              <p class="card-subtitle">Computer Science Program</p>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="education-details">
+              <div class="detail-item">
+                <i class="fas fa-award"></i>
+                <span><strong>Grade:</strong> B</span>
+              </div>
+              <div class="detail-item">
+                <i class="fas fa-calendar-alt"></i>
+                <span><strong>Duration:</strong> 2023 – 2027</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5" style="margin-top: 1rem">
+      <div class="container">
+        <h2 class="section-title text-center">Contact</h2>
+        <p class="contact-intro text-center mb-4" style="font-style: italic; color: #00bcd4; font-weight: 600; font-size: 1.25rem; text-shadow: 0 0 8px #00bcd4;">
+          I’d love to collaborate with you or discuss new opportunities.
+        </p>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="contact-container">
+              <a
+                href="https://wa.me/201557643908"
+                target="_blank"
+                class="contact-card"
+                rel="noopener noreferrer"
+              >
+                <div class="contact-icon">
+                  <i class="fab fa-whatsapp"></i>
+                </div>
+                <div class="contact-text">
+                  <p class="contact-title">WhatsApp</p>
+                  <p class="contact-detail">Let's chat!</p>
+                </div>
+              </a>
+              <a
+                href="mailto:omarsawan719@gmail.com"
+                target="_blank"
+                class="contact-card"
+                rel="noopener noreferrer"
+              >
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-text">
+                  <p class="contact-title">Email</p>
+                  <p class="contact-detail">Mail Me!</p>
+                </div>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/omarheshamsalah/"
+                target="_blank"
+                class="contact-card"
+                rel="noopener noreferrer"
+              >
+                <div class="contact-icon">
+                  <i class="fab fa-linkedin"></i>
+                </div>
+                <div class="contact-text">
+                  <p class="contact-title">LinkedIn</p>
+                  <p class="contact-detail">Connect with me!</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modals -->
+    <div
+      class="modal fade"
+      id="project1Modal"
+      tabindex="-1"
+      aria-labelledby="project1ModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="project1ModalLabel">
+              Sales Insights Dashboard (Excel)
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="project1.png"
+              alt="Sales Insights Dashboard"
+              class="img-fluid modal-img fade-in"
+            />
+            <p>
+              The dashboard delivers key sales insights, including:<br />
+              • Top 10 countries by total sales<br />
+              • Quarterly sales trends throughout the year<br />
+              • Sales by product category<br />
+              • Most common customer languages<br /><br />
+              It also features interactive filters like a Timeline slicer and
+              Country slicer, making it easier to analyze trends by year or
+              region.<br />
+              Tools used : Formules , Pivot tables , Pivot charts , Slicers &
+              Timeline.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="project2Modal"
+      tabindex="-1"
+      aria-labelledby="project2ModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="project2ModalLabel">
+              Advanced Sales Dashboard (Excel with Power Pivot)
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="project2.png"
+              alt="Advanced Sales Dashboard"
+              class="img-fluid modal-img fade-in"
+            />
+            <p>
+              This dashboard marked a milestone in my journey — larger datasets
+              and more professional modeling.<br /><br />
+              I used Power Pivot to connect tables across multiple Excel files,
+              ensuring performance and flexibility, and Power Query for
+              transformations.<br /><br />
+              Key insights include:<br />
+              • Top 10 Customers by Invoice Amount<br />
+              • Top 10 Salespersons by Total Sales<br />
+              • Top Selling Products<br />
+              • Geographical Demand Analysis<br />
+              • Sales Trends Over Time<br />
+              • Order Success vs Failure Rates<br /><br />
+              Tools used: Power Pivot, Power Query, Pivot Charts, Slicers &
+              Timeline.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="project3Modal"
+      tabindex="-1"
+      aria-labelledby="project3ModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="project3ModalLabel">
+              Café Sales Dashboard (Excel)
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="project3.png"
+              alt="Café Sales Dashboard"
+              class="img-fluid modal-img fade-in"
+            />
+            <p>
+              I designed an interactive Excel dashboard to analyze café sales.
+              The raw data was messy, with duplicates, missing values, and
+              errors — so I first cleaned and prepared it properly.
+            </p>
+
+            <h6>Data Preparation</h6>
+            <div class="data-prep-images">
+              <div class="image-container">
+                <img
+                  src="before.png"
+                  alt="Before Cleaning"
+                  class="img-fluid modal-img fade-in"
+                />
+                <p class="image-caption">Before Cleaning</p>
+              </div>
+              <div class="image-container">
+                <img
+                  src="After.png"
+                  alt="After Cleaning"
+                  class="img-fluid modal-img fade-in"
+                />
+                <p class="image-caption">After Cleaning</p>
+              </div>
+            </div>
+            <p>
+              The cleaning process involved removing duplicates, handling
+              missing values, correcting inconsistencies such as product names
+              and payment method spelling, and standardizing formats to ensure
+              data accuracy and reliability.
+            </p>
+
+            <p>
+              Key insights include:<br />
+              • Total orders and revenue with average revenue per order<br />
+              • Monthly sales trends<br />
+              • Orders and revenue by product category<br />
+              • Payment method distribution (Cash – Credit – Digital Wallet)<br />
+              • Dine-in vs Takeaway orders<br />
+              • Quantity sold per product for inventory planning<br /><br />
+              This dashboard helps management track performance, understand
+              customer behavior, and optimize decisions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const texts = [
+        "Hi, I'm Omar Hesham",
+        "Data Analyst",
+        "I bridge the gap between data and business needs by delivering clear insights that support smarter, faster decisions.",
+      ];
+
+      function typeText(element, text, delay = 30) {
+        return new Promise((resolve) => {
+          let i = 0;
+          function typing() {
+            if (i < text.length) {
+              element.textContent += text.charAt(i);
+              i++;
+              setTimeout(typing, delay);
+            } else {
+              resolve();
+            }
+          }
+          typing();
+        });
+      }
+
+      async function typeAllTexts() {
+        const container = document.getElementById("text-container");
+        container.textContent = "";
+        const colors = ["#007bff", "#00bcd4", "#ffffff"];
+        for (let i = 0; i < texts.length; i++) {
+          const text = texts[i];
+          const p = document.createElement("p");
+          p.classList.add("mb-1");
+          p.style.color = colors[i];
+          if (container.children.length === 0) {
+            p.classList.add("fs-2", "fw-bold");
+          } else if (container.children.length === 1) {
+            p.classList.add("fs-4", "fw-semibold");
+          } else {
+            p.classList.add("fs-6");
+          }
+          container.appendChild(p);
+          await typeText(p, text);
+          await new Promise((r) => setTimeout(r, 300)); // pause between texts
+        }
+      }
+
+      // Set text directly without animation
+      const container = document.getElementById("text-container");
+      container.innerHTML = `
+        <p class="mb-1 fs-2 fw-bold" style="color: #007bff;">${texts[0]}</p>
+        <p class="mb-1 fs-4 fw-semibold" style="color: #00bcd4;">${texts[1]}</p>
+        <p class="mb-1 fs-6" style="color: #ffffff;">${texts[2]}</p>
+      `;
+
+      // Add raise animation CSS
+      const style = document.createElement("style");
+      style.textContent = `
+        @keyframes riseUp {
+          from {
+            opacity: 0;
+            transform: translateY(50px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+        .rise-animate {
+          animation: riseUp 0.8s ease-out;
+        }
+        @keyframes raiseText {
+          0% {
+            transform: translateX(-20px);
+          }
+          100% {
+            transform: translateX(0);
+          }
+        }
+        @keyframes raisePhoto {
+          0% {
+            transform: translateX(20px);
+          }
+          100% {
+            transform: translateX(0);
+          }
+        }
+        @keyframes glow {
+          0% {
+            box-shadow: 0 0 5px #90caf9;
+          }
+          50% {
+            box-shadow: 0 0 20px #90caf9, 0 0 30px #90caf9;
+          }
+          100% {
+            box-shadow: 0 0 5px #90caf9;
+          }
+        }
+        #text-container {
+          opacity: 1;
+          animation: raiseText 1s ease forwards;
+        }
+        .flex-shrink-0 {
+          opacity: 1;
+          animation: raisePhoto 1s ease forwards;
+        }
+        #sample-work-btn, #connect-btn, #cv-btn {
+          background: linear-gradient(45deg, #90caf9, #e0e0e0);
+          border: none;
+          border-radius: 50px;
+          padding: 15px 30px;
+          font-size: 1.2rem;
+          font-weight: bold;
+          color: #121212;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          position: relative;
+          overflow: hidden;
+          transition: all 0.3s ease;
+          box-shadow: 0 4px 15px rgba(144, 202, 249, 0.4);
+          text-decoration: none;
+          display: inline-block;
+        }
+        #sample-work-btn:hover, #connect-btn:hover, #cv-btn:hover {
+          transform: scale(1.1);
+          box-shadow: 0 8px 25px rgba(144, 202, 249, 0.6);
+          animation: glow 2s infinite;
+        }
+        #sample-work-btn::before, #connect-btn::before, #cv-btn::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: -100%;
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+          transition: left 0.5s;
+        }
+        #sample-work-btn:hover::before, #connect-btn:hover::before, #cv-btn:hover::before {
+          left: 100%;
+        }
+
+        .nav-link {
+          transition: all 0.3s ease;
+        }
+        .nav-link:hover {
+          color: #90caf9 !important;
+          text-shadow: 0 0 10px #90caf9;
+          transform: scale(1.05);
+        }
+
+        .welcome-text {
+          font-style: italic;
+          color: #90caf9;
+          text-shadow: 0 0 5px #90caf9;
+          font-size: 1.1rem;
+          font-weight: bold;
+          animation: glow 2s ease-in-out infinite alternate;
+        }
+        .welcome-desktop {
+          font-size: 1.5rem;
+          color: #00bcd4;
+          font-weight: bold;
+          text-shadow: 0 0 10px #00bcd4;
+          margin-right: 1rem;
+        }
+        @keyframes glow {
+          from {
+            text-shadow: 0 0 5px #90caf9;
+          }
+          to {
+            text-shadow: 0 0 10px #90caf9, 0 0 20px #90caf9;
+          }
+        }
+        @keyframes iconRotate {
+          0% {
+            transform: rotate(0deg);
+          }
+          100% {
+            transform: rotate(360deg);
+          }
+        }
+        .nav-link i {
+          /* animation removed */
+        }
+        .section-title {
+          font-size: 2.5rem;
+          margin-bottom: 2rem;
+          color: #90caf9;
+          text-shadow: 0 0 10px #90caf9;
+        }
+        .project-card {
+          background: rgba(255, 255, 255, 0.1);
+          backdrop-filter: blur(15px);
+          border-radius: 15px;
+          padding: 2rem;
+          box-shadow: 0 8px 32px rgba(0, 255, 255, 0.2);
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+          text-align: center;
+          height: 100%;
+        }
+        .project-card:hover {
+          transform: translateY(-10px);
+          box-shadow: 0 12px 40px rgba(0, 255, 255, 0.4), 0 0 30px #00ffff;
+          border: 1px solid #00bcd4;
+        }
+        .project-img {
+          width: 120%;
+          height: auto;
+          border-radius: 10px;
+          transition: transform 0.3s ease;
+          margin-bottom: 1rem;
+        }
+        .project-card:hover .project-img {
+          transform: scale(1.05);
+        }
+        .project-card h3 {
+          color: #00bcd4;
+          margin-bottom: 1rem;
+          font-size: 1.3rem;
+        }
+        .project-card p {
+          margin-bottom: 1.5rem;
+          line-height: 1.6;
+        }
+        .view-more-btn {
+          background: linear-gradient(45deg, #00bcd4, #0097a7);
+          border: none;
+          color: white;
+          padding: 0.5rem 1rem;
+          border-radius: 5px;
+          transition: background 0.3s ease, transform 0.3s ease;
+        }
+        .view-more-btn:hover {
+          background: linear-gradient(45deg, #0097a7, #00bcd4);
+          transform: scale(1.05);
+        }
+        .modal-content {
+          background: rgba(255, 255, 255, 0.1);
+          backdrop-filter: blur(15px);
+          color: #e0e0e0;
+          border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .modal-header {
+          border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .modal-body p {
+          line-height: 1.6;
+        }
+        .data-prep-images {
+          display: flex;
+          justify-content: space-between;
+          gap: 1rem;
+          margin: 1rem 0;
+        }
+        .image-container {
+          flex: 1;
+          text-align: center;
+        }
+        .modal-img {
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+          transition: transform 0.3s ease;
+          max-width: 100%;
+        }
+        .modal-img:hover {
+          transform: scale(1.05);
+        }
+        .image-caption {
+          font-size: 0.9rem;
+          color: #bbb;
+          margin-top: 0.5rem;
+        }
+        @keyframes fadeIn {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+        .fade-in {
+          animation: fadeIn 0.8s ease-in;
+        }
+        @media (max-width: 768px) {
+          .data-prep-images {
+            flex-direction: column;
+            gap: 1.5rem;
+          }
+        }
+        .skills-category {
+          background: rgba(255, 255, 255, 0.1);
+          backdrop-filter: blur(15px);
+          border-radius: 15px;
+          padding: 2rem;
+          box-shadow: 0 8px 32px rgba(0, 255, 255, 0.2);
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+          height: 100%;
+        }
+        .skills-category:hover {
+          transform: translateY(-10px);
+          box-shadow: 0 12px 40px rgba(0, 255, 255, 0.4), 0 0 30px #00ffff;
+          border: 1px solid #00bcd4;
+        }
+        .skill-card {
+          background: rgba(255, 255, 255, 0.05);
+          border-radius: 10px;
+          padding: 1rem;
+          text-align: center;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+          border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .skill-card:hover {
+          transform: scale(1.05);
+          box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3);
+          border: 1px solid #00bcd4;
+        }
+        .skill-card i {
+          color: #00bcd4;
+          margin-bottom: 0.5rem;
+        }
+        .skill-card span {
+          color: #e0e0e0;
+          font-size: 0.9rem;
+          font-weight: 500;
+        }
+        .certification-card {
+          background: rgba(255, 255, 255, 0.1);
+          backdrop-filter: blur(15px);
+          border-radius: 15px;
+          padding: 2rem;
+          box-shadow: 0 8px 32px rgba(0, 255, 255, 0.2);
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+          text-align: center;
+          height: 100%;
+        }
+        .certification-card:hover {
+          transform: translateY(-10px);
+          box-shadow: 0 12px 40px rgba(0, 255, 255, 0.4), 0 0 30px #00ffff;
+          border: 1px solid #00bcd4;
+        }
+        .cert-image-container {
+          margin-bottom: 1rem;
+        }
+        .cert-image {
+          width: 100%;
+          height: auto;
+          border-radius: 10px;
+          transition: transform 0.3s ease;
+        }
+        .certification-card:hover .cert-image {
+          transform: scale(1.05);
+        }
+        .cert-text p {
+          margin-bottom: 0.5rem;
+          color: #e0e0e0;
+        }
+        .cert-text p:first-child {
+          color: #00bcd4;
+          font-size: 1.2rem;
+          font-weight: bold;
+        }
+        .cert-text p:nth-child(2) {
+          color: #90caf9;
+          font-weight: 500;
+        }
+        .cert-text p:last-child {
+          color: #bbb;
+          font-size: 0.9rem;
+        }
+        @media (max-width: 768px) {
+          .skills-grid {
+            justify-content: center;
+          }
+          .skill-card {
+            text-align: center;
+            margin-bottom: 1rem;
+          }
+        }
+        .experience-card, .education-card {
+          background: rgba(255, 255, 255, 0.1);
+          backdrop-filter: blur(15px);
+          border-radius: 15px;
+          padding: 2rem;
+          box-shadow: 0 8px 32px rgba(0, 255, 255, 0.2);
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+          margin-bottom: 2rem;
+        }
+        .experience-card:hover, .education-card:hover {
+          transform: translateY(-10px);
+          box-shadow: 0 12px 40px rgba(0, 255, 255, 0.4), 0 0 30px #00ffff;
+          border: 1px solid #00bcd4;
+        }
+        .card-header {
+          display: flex;
+          align-items: center;
+          margin-bottom: 1.5rem;
+          padding-bottom: 1rem;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .card-icon {
+          width: 60px;
+          height: 60px;
+          background: linear-gradient(135deg, #00bcd4, #0097a7);
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-right: 1.5rem;
+          font-size: 1.5rem;
+          color: white;
+          box-shadow: 0 4px 15px rgba(0, 188, 212, 0.3);
+        }
+        .card-title-section h3 {
+          color: #00bcd4;
+          margin-bottom: 0.5rem;
+          font-size: 1.4rem;
+        }
+        .card-subtitle {
+          color: #90caf9;
+          font-style: italic;
+          margin-bottom: 0;
+        }
+        .achievement-grid {
+          display: grid;
+          gap: 1rem;
+        }
+        .achievement-item {
+          display: flex;
+          align-items: flex-start;
+          padding: 1rem;
+          background: rgba(255, 255, 255, 0.05);
+          border-radius: 10px;
+          border: 1px solid rgba(255, 255, 255, 0.1);
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .achievement-item:hover {
+          transform: translateX(5px);
+          box-shadow: 0 4px 15px rgba(0, 255, 255, 0.2);
+          border: 1px solid #00bcd4;
+        }
+        .achievement-item i {
+          color: #00bcd4;
+          margin-right: 1rem;
+          margin-top: 0.2rem;
+          font-size: 1.2rem;
+        }
+        .achievement-item span {
+          color: #e0e0e0;
+          line-height: 1.5;
+        }
+        .education-details {
+          display: grid;
+          gap: 1rem;
+        }
+        .detail-item {
+          display: flex;
+          align-items: center;
+          padding: 1rem;
+          background: rgba(255, 255, 255, 0.05);
+          border-radius: 10px;
+          border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .detail-item i {
+          color: #00bcd4;
+          margin-right: 1rem;
+          font-size: 1.2rem;
+        }
+        .detail-item span {
+          color: #e0e0e0;
+          font-size: 1rem;
+        }
+        @media (max-width: 768px) {
+          .card-header {
+            flex-direction: column;
+            text-align: center;
+          }
+          .card-icon {
+            margin-right: 0;
+            margin-bottom: 1rem;
+          }
+          .achievement-item, .detail-item {
+            flex-direction: column;
+            text-align: center;
+          }
+          .achievement-item i, .detail-item i {
+            margin-right: 0;
+            margin-bottom: 0.5rem;
+          }
+        }
+        .contact-container {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+          align-items: center;
+        }
+        .contact-card {
+          background-color: rgba(255, 255, 255, 0.1);
+          backdrop-filter: blur(15px);
+          border-radius: 15px;
+          box-shadow: 0 8px 32px rgba(0, 255, 255, 0.2);
+          padding: 1rem 1.5rem;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 1rem;
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          transition: transform 0.3s ease, border-color 0.3s ease;
+          cursor: pointer;
+          text-decoration: none;
+          color: #e0e0e0;
+          width: 100%;
+          max-width: 400px;
+        }
+        .contact-card:hover {
+          transform: scale(1.05);
+          border-color: #00bcd4;
+        }
+        .contact-icon {
+          width: 40px;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 1.5rem;
+          color: #00bcd4;
+        }
+        .contact-text {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+          flex-grow: 1;
+        }
+        .contact-title {
+          font-weight: 700;
+          font-size: 1.1rem;
+          margin: 0;
+          color: #00bcd4;
+        }
+        .contact-detail {
+          font-size: 0.9rem;
+          color: #e0e0e0;
+        }
+
+        @media (max-width: 991px) {
+          nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+          }
+          .welcome-section {
+            margin-top: 70px;
+          }
+        }
+      `;
+      document.head.appendChild(style);
+
+      // Add click event for navigation
+      const btn = document.getElementById("sample-work-btn");
+      btn.addEventListener("click", () => {
+        document
+          .getElementById("projects")
+          .scrollIntoView({ behavior: "smooth" });
+      });
+      const connectBtn = document.getElementById("connect-btn");
+      connectBtn.addEventListener("click", () => {
+        document
+          .getElementById("contact")
+          .scrollIntoView({ behavior: "smooth" });
+      });
+
+      // Mobile menu toggle
+      const mobileMenuBtn = document.getElementById("mobile-menu-btn");
+      const mobileMenu = document.getElementById("mobile-menu");
+      mobileMenuBtn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("active");
+        mobileMenuBtn.classList.toggle("active");
+      });
+
+      // Close mobile menu when clicking on a link
+      const mobileMenuLinks = document.querySelectorAll("#mobile-menu a");
+      mobileMenuLinks.forEach(link => {
+        link.addEventListener("click", () => {
+          mobileMenu.classList.remove("active");
+          mobileMenuBtn.classList.remove("active");
+        });
+      });
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("rise-animate");
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.1 }
+      );
+
+      observer.observe(document.querySelector("#text-container"));
+      observer.observe(document.querySelector(".flex-shrink-0"));
+
+      // Observe project cards for animation
+      document.querySelectorAll(".project-card").forEach((card) => {
+        observer.observe(card);
+      });
+
+      // Observe skills and certification cards for animation
+      document.querySelectorAll(".skills-category").forEach((card) => {
+        observer.observe(card);
+      });
+      document.querySelectorAll(".certification-card").forEach((card) => {
+        observer.observe(card);
+      });
+
+      // GSAP ScrollTrigger Animations
+      gsap.registerPlugin(ScrollTrigger);
+
+      // Animate profile image
+      gsap.set(".flex-shrink-0 img", { opacity: 0, x: -100 });
+      gsap.to(".flex-shrink-0 img", {
+        opacity: 1,
+        x: 0,
+        duration: 1,
+        ease: "power2.out",
+        scrollTrigger: {
+          trigger: ".flex-shrink-0 img",
+          start: "top 80%",
+          end: "bottom 20%",
+          toggleActions: "play none none reverse"
+        }
+      });
+
+      // Animate sections
+      const sections = ["#usp", "#about", "#projects", "#skills", "#experience", "#education", "#contact"];
+      sections.forEach(section => {
+        gsap.set(section, { opacity: 0, y: 50 });
+        gsap.to(section, {
+          opacity: 1,
+          y: 0,
+          duration: 1,
+          ease: "power2.out",
+          scrollTrigger: {
+            trigger: section,
+            start: "top 80%",
+            end: "bottom 20%",
+            toggleActions: "play none none reverse"
+          }
+        });
+      });
+
+    </script>
+    <!-- Bootstrap JS Bundle CDN (Popper + Bootstrap JS) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+      // Scroll to top of the page on page load
+      window.addEventListener('load', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    </script>
+  </body>
+</html>
